@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'photo.apps.PhotoConfig',
     'accounts.apps.AccountsConfig',
-    'disqus',
+    # 'disqus',
     'widget_tweaks',
 ]
 
@@ -130,7 +130,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 LOGIN_REDIRECT_IRL = '/'
 
-DISQUS_WEBSITE_SHORTNAME = 'jjangsu'
+# DISQUS_WEBSITE_SHORTNAME = 'jjangsu'
 SITE_ID=1
 
 import dj_database_url
