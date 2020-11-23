@@ -1,0 +1,6 @@
+*.pvc
+*~
+/.vscode
+__pycahce__
+db.splite3
+.DS_store
